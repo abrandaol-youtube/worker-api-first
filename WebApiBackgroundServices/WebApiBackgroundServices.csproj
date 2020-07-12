@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApiBackgroundServices.Domain\WebApiBackgroundServices.Domain.csproj" />
+    <ProjectReference Include="..\WebApiBackgroundServices.Repository\WebApiBackgroundServices.Repository.csproj" />
+    <ProjectReference Include="..\WebApiBackgroundServices.Services\WebApiBackgroundServices.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
